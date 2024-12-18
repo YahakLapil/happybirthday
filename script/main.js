@@ -1,13 +1,13 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Do you want to play music in the background?',
+        title: 'Mau pake lagu?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Ga',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
@@ -102,7 +102,7 @@ const animationTimeline = () => {
         0.05
     )
     .to(".fake-btn", 0.1, {
-        backgroundColor: "rgb(127, 206, 248)",
+        backgroundColor: "rgb(253, 25, 139)",
     },
     "+=4")
     .to(
@@ -121,7 +121,7 @@ const animationTimeline = () => {
     .to(".idea-3 strong", 0.5, {
         scale: 1.2,
         x: 10,
-        backgroundColor: "rgb(21, 161, 237)",
+        backgroundColor: "rgb(253, 25, 139)",
         color: "#fff",
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=2.5")

@@ -60,7 +60,7 @@ body {
 }
 
 .text-box .fake-btn {
-  background-color: rgb(21, 161, 237);
+  background-color: pink;
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
@@ -112,7 +112,7 @@ body {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -50%;
   width: 80px;
 }
 
@@ -273,8 +273,8 @@ body {
   }
 
   .six .hat {
-    /* top: -20px; */
-    width: 50px;
+    top: -40px;
+    width: 60px;
   }
 
   .wish-hbd {
