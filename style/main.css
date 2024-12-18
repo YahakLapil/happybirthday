@@ -11,6 +11,10 @@ body {
   visibility: hidden;
 }
 
+.nama {
+  font-size: .5em;
+}
+
 .container {
   height: 100vh;
   margin: 0 auto;
